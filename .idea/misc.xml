@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/springcloud-parents/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-server/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-impl-user/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-impl-order/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

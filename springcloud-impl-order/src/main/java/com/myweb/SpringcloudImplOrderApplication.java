@@ -5,13 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@EnableEurekaClient
 @EnableFeignClients
+@EnableEurekaClient
 @SpringBootApplication
-public class SpringcloudImplUserApplication {
+public class SpringcloudImplOrderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringcloudImplUserApplication.class, args);
+		SpringApplication.run(SpringcloudImplOrderApplication.class, args);
 	}
 
 }

@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-api-order" />
         <module name="springcloud-api-user" />
+        <module name="springcloud-impl-order" />
+        <module name="springcloud-impl-user" />
         <module name="springcloud-server" />
       </profile>
     </annotationProcessing>
@@ -16,12 +18,16 @@
       <module name="springcloud-api" target="1.5" />
       <module name="springcloud-api-order" target="1.5" />
       <module name="springcloud-api-user" target="1.5" />
+      <module name="springcloud-impl-order" target="1.8" />
+      <module name="springcloud-impl-user" target="1.8" />
       <module name="springcloud-parents" target="1.5" />
       <module name="springcloud-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-impl-order" options="-parameters" />
+      <module name="springcloud-impl-user" options="-parameters" />
       <module name="springcloud-parents" options="" />
       <module name="springcloud-server" options="-parameters" />
     </option>

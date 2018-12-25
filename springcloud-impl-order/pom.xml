@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.myweb</groupId>
-	<artifactId>springcloud-impl-user</artifactId>
+	<artifactId>springcloud-impl-order</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springcloud-impl-user</name>
-	<description>springcloud-impl-user</description>
+	<name>springcloud-impl-order</name>
+	<description>springcloud-impl-order</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -22,7 +22,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -39,7 +39,6 @@
 			<artifactId>springcloud-api-user</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
-
 	</dependencies>
 
 	<dependencyManagement>

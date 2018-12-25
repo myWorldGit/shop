@@ -1,0 +1,12 @@
+server:
+  port: 8003
+# server  的唯一标识
+spring:
+  application:
+    name: app-order
+eureka:
+  client:
+    service-url:  #当前服务注册到eureka 的服务
+      defaultZone: http://127.0.0.1:8100/eureka
+    register-with-eureka: true
+    fetch-registry: true
